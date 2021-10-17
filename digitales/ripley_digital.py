@@ -1,6 +1,7 @@
 from bs4 import BeautifulSoup
 import requests
 import urllib3
+from telegram import telegram_bot_sendtext
 
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
@@ -20,6 +21,8 @@ def disponibilidad_PS5_digital_ripley(url):
 
     if str("Agregar a la bolsa") in result:
         print("HAY STOCK DISPONIBLE DE PS5 DIGITAL EN RIPLEY")
+        telegram_bot_sendtext(f"HAY STOCK DISPONIBLE DE PS5 DIGITAL EN RIPLEY {url}")
 
     else:
         print("NO HAY STOCK DISPONIBLE DE PS5 DIGITAL EN RIPLEY")
+        telegram_bot_sendtext(f"NO HAY STOCK DISPONIBLE DE PS5 DIGITAL EN RIPLEY {url}")

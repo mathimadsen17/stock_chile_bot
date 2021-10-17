@@ -1,6 +1,7 @@
 from bs4 import BeautifulSoup
 import requests
 import urllib3
+from telegram import telegram_bot_sendtext
 
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
@@ -20,6 +21,8 @@ def disponibilidad_PS5_digital_pcfactory(url):
 
     if str("Añadir al carro") in result:
         print("HAY STOCK DISPONIBLE DE PS5 DIGITAL EN PC FACTORY")
+        telegram_bot_sendtext(f"HAY STOCK DISPONIBLE DE PS5 DIGITAL EN PC FACTORY {url}")
 
     else:
-        print("NO HAY STOCK DISPONIBLE DE PS5 DIGITAL EN PC FACTORY")    
+        print("NO HAY STOCK DISPONIBLE DE PS5 DIGITAL EN PC FACTORY")
+        telegram_bot_sendtext(f"NO HAY STOCK DISPONIBLE DE PS5 DIGITAL EN PC FACTORY {url}") 

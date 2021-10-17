@@ -1,5 +1,6 @@
 from bs4 import BeautifulSoup
 import urllib3
+from telegram import telegram_bot_sendtext
 
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
@@ -19,7 +20,10 @@ def disponibilidad_PS5_falabella(url):
 
     if len(result) > 0:
         print("HAY STOCK DISPONIBLE DE PS5 CON LECTOR EN FALABELLA")
+        telegram_bot_sendtext(f"HAY STOCK DISPONIBLE DE PS5 CON LECTOR EN FALABELLA {url}")
+        
 
     else:
         print("NO HAY STOCK DISPONIBLE DE PS5 CON LECTOR EN FALABELLA")
+        telegram_bot_sendtext(f"NO HAY STOCK DISPONIBLE DE PS5 CON LECTOR EN FALABELLA {url}")
 

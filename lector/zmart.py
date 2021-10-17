@@ -1,8 +1,6 @@
 from bs4 import BeautifulSoup
-import datetime
-from tinydb import TinyDB, Query
+from telegram import telegram_bot_sendtext
 import urllib3
-import xlsxwriter
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
@@ -21,6 +19,8 @@ def disponiblidad_PS5_zmart(url):
 
     if len(result) > 0:
         print("HAY STOCK DISPONIBLE DE PS5 CON LECTOR EN ZMART")
+        telegram_bot_sendtext(f"HAY STOCK DISPONIBLE DE PS5 CON LECTOR EN ZMART {url}")
 
     else:
         print("NO HAY STOCK DISPONIBLE DE PS5 CON LECTOR EN ZMART")
+        telegram_bot_sendtext(f"NO HAY STOCK DISPONIBLE DE PS5 CON LECTOR EN ZMART {url}")
