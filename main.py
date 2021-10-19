@@ -20,7 +20,7 @@ while True:
         telegram_bot_sendtext_checker("HAY STOCK DISPONIBLE DE PS5 CON LECTOR EN MERCADO LIBRE https://articulo.mercadolibre.cl/MLC-613490868-playstation-5-ps5-estandar-spider-man-miles-morales-_JM")
     disponibilidad_PS5_microplay('https://www.microplay.cl/producto/consola-ps5-sony/')
     disponiblidad_PS5_zmart('https://www.zmart.cl/scripts/prodView.asp?idProduct=78812')
-    disponibilidad_PS5_pcfactory('https://www.pcfactory.cl/producto/39192-sony-bundle-consola-playstation-5--juego-marvel-s-spider-man-miles-morales-ps5')
+    disponibilidad_PS5_pcfactory('https://www.pcfactory.cl/producto/43431-sony-consola-playstation-5')
     disponibilidad_PS5_sony('https://store.sony.cl/playstation5/p')
     disponibilidad_PS5_weplay('https://www.weplay.cl/consola-playstation-5.html')
     disponiblidad_PS5_digital_lapolar('https://www.lapolar.cl/consola-sony-playstation-5-digital/23395657.html')
