@@ -10,11 +10,17 @@ from digitales.ripley_digital import disponibilidad_PS5_digital_ripley
 from lector.pcfactory import disponibilidad_PS5_pcfactory
 from digitales.pcfactory_digital import disponibilidad_PS5_digital_pcfactory
 from time import sleep
+from telegram import telegram_bot_sendtext
+
+from telegram import telegram_bot_sendtext
 
 while True:
     disponibilidad_PS5_falabella('https://www.falabella.com/falabella-cl/product/prod37699550/COMBO-PLAYSTATION-5-+-JGO-SPIDER-MAN/sku37700168')
     disponibilidad_PS5_lider('https://www.lider.cl/catalogo/product/sku/1000000000359')
-    disponibilidad_PS5_mercadolibre('https://articulo.mercadolibre.cl/MLC-613490868-playstation-5-ps5-estandar-spider-man-miles-morales-_JM')
+    if disponibilidad_PS5_mercadolibre('https://articulo.mercadolibre.cl/MLC-613490868-playstation-5-ps5-estandar-spider-man-miles-morales-_JM') == False:
+        telegram_bot_sendtext("NO HAY STOCK DISPONIBLE DE PS5 CON LECTOR EN MERCADO LIBRE https://articulo.mercadolibre.cl/MLC-613490868-playstation-5-ps5-estandar-spider-man-miles-morales-_JM")
+    else:
+        telegram_bot_sendtext("HAY STOCK DISPONIBLE DE PS5 CON LECTOR EN MERCADO LIBRE https://articulo.mercadolibre.cl/MLC-613490868-playstation-5-ps5-estandar-spider-man-miles-morales-_JM")
     disponibilidad_PS5_microplay('https://www.microplay.cl/producto/consola-ps5-sony/')
     disponiblidad_PS5_zmart('https://www.zmart.cl/scripts/prodView.asp?idProduct=78812')
     disponibilidad_PS5_pcfactory('https://www.pcfactory.cl/producto/39192-sony-bundle-consola-playstation-5--juego-marvel-s-spider-man-miles-morales-ps5')

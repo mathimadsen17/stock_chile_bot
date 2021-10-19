@@ -30,11 +30,11 @@ def disponibilidad_PS5_mercadolibre(url):
 
     if len(result) > 0:
         print(f'HAY {limpiar_disponibilidad(cantidad_disponible)} UNIDADES DISPONIBLES DE PS5 CON LECTOR EN MERCADO LIBRE')
-        telegram_bot_sendtext(f'HAY {limpiar_disponibilidad(cantidad_disponible)} UNIDADES DISPONIBLES DE PS5 CON LECTOR EN MERCADO LIBRE')
+        return True
         
     else:
         print("NO HAY STOCK DISPONIBLE DE PS5 CON LECTOR EN MERCADO LIBRE")
-        telegram_bot_sendtext(f"NO HAY STOCK DISPONIBLE DE PS5 CON LECTOR EN MERCADO LIBRE {url}")
+        return False
     
 
 
