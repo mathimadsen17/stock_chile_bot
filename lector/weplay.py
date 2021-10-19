@@ -23,5 +23,4 @@ def disponibilidad_PS5_weplay(url):
 
     else:
         print("NO HAY STOCK DISPONIBLE DE PS5 CON LECTOR EN WEPLAY")
-        telegram_bot_sendtext(f"NO HAY STOCK DISPONIBLE DE PS5 CON LECTOR EN WEPLAY {url}")
         

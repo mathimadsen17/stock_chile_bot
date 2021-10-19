@@ -23,6 +23,7 @@ def disponibilidad_PS5_movistar(url):
 
     if len(result) > 0:
         print("HAY STOCK DISPONIBLE DE PS5 CON LECTOR EN MOVISTAR")
+        telegram_bot_sendtext(f"HAY STOCK DISPONIBLE DE PS5 CON LECTOR EN MOVISTAR {url}")
 
     else:
         print("NO HAY STOCK DISPONIBLE DE PS5 CON LECTOR EN MOVISTAR")

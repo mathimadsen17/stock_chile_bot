@@ -23,4 +23,3 @@ def disponiblidad_PS5_zmart(url):
 
     else:
         print("NO HAY STOCK DISPONIBLE DE PS5 CON LECTOR EN ZMART")
-        telegram_bot_sendtext(f"NO HAY STOCK DISPONIBLE DE PS5 CON LECTOR EN ZMART {url}")

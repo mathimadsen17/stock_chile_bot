@@ -21,5 +21,5 @@ def disponiblidad_PS5_digital_lapolar(url):
 
     else:
         print("NO HAY STOCK DISPONIBLE DE PS5 DIGITAL EN LA POLAR")
-        telegram_bot_sendtext(f"NO HAY STOCK DISPONIBLE DE PS5 DIGITAL EN LA POLAR {url}")
+
         

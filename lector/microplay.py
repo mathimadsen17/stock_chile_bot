@@ -23,4 +23,4 @@ def disponibilidad_PS5_microplay(url):
 
     else:
         print("NO HAY STOCK DISPONIBLE DE PS5 CON LECTOR EN MICROPLAY")
-        telegram_bot_sendtext(f"NO HAY STOCK DISPONIBLE DE PS5 CON LECTOR EN MICROPLAY {url}")
+    

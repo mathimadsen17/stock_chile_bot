@@ -25,4 +25,3 @@ def disponibilidad_PS5_digital_pcfactory(url):
 
     else:
         print("NO HAY STOCK DISPONIBLE DE PS5 DIGITAL EN PC FACTORY")
-        telegram_bot_sendtext(f"NO HAY STOCK DISPONIBLE DE PS5 DIGITAL EN PC FACTORY {url}") 

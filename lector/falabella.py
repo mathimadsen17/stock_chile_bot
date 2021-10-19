@@ -25,5 +25,5 @@ def disponibilidad_PS5_falabella(url):
 
     else:
         print("NO HAY STOCK DISPONIBLE DE PS5 CON LECTOR EN FALABELLA")
-        telegram_bot_sendtext(f"NO HAY STOCK DISPONIBLE DE PS5 CON LECTOR EN FALABELLA {url}")
+        
 

@@ -25,4 +25,3 @@ def disponibilidad_PS5_digital_ripley(url):
 
     else:
         print("NO HAY STOCK DISPONIBLE DE PS5 DIGITAL EN RIPLEY")
-        telegram_bot_sendtext(f"NO HAY STOCK DISPONIBLE DE PS5 DIGITAL EN RIPLEY {url}")

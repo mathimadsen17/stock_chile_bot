@@ -23,6 +23,6 @@ def disponibilidad_PS5_lider(url):
 
     else:
         print("NO HAY STOCK DISPONIBLE DE PS5 CON LECTOR EN LIDER")
-        telegram_bot_sendtext(f"NO HAY STOCK DISPONIBLE DE PS5 CON LECTOR EN LIDER {url}")
+        
 
 
