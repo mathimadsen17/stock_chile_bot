@@ -16,7 +16,7 @@ from telegram_checker import telegram_bot_sendtext_checker
 while True:
     disponibilidad_PS5_falabella('https://www.falabella.com/falabella-cl/product/prod37699550/COMBO-PLAYSTATION-5-+-JGO-SPIDER-MAN/sku37700168')
     disponibilidad_PS5_lider('https://www.lider.cl/catalogo/product/sku/1000000000359')
-    if disponibilidad_PS5_mercadolibre('https://articulo.mercadolibre.cl/MLC-613490868-playstation-5-ps5-estandar-spider-man-miles-morales-_JM') == False:
+    if disponibilidad_PS5_mercadolibre('https://articulo.mercadolibre.cl/MLC-613490868-playstation-5-ps5-estandar-spider-man-miles-morales-_JM') == True:
         telegram_bot_sendtext_checker("HAY STOCK DISPONIBLE DE PS5 CON LECTOR EN MERCADO LIBRE https://articulo.mercadolibre.cl/MLC-613490868-playstation-5-ps5-estandar-spider-man-miles-morales-_JM")
     disponibilidad_PS5_microplay('https://www.microplay.cl/producto/consola-ps5-sony/')
     disponiblidad_PS5_zmart('https://www.zmart.cl/scripts/prodView.asp?idProduct=78812')
