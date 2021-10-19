@@ -9,3 +9,5 @@ def telegram_bot_sendtext_checker(bot_message):
     response = requests.get(send_text)
 
     return response.json()
+
+telegram_bot_sendtext_checker("hola")
