@@ -1,0 +1,2 @@
+sudo pip install bs4
+sudo pip install urllib3
