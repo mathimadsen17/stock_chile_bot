@@ -6,6 +6,9 @@ __pycache__/
 # C extensions
 *.so
 
+# No revisar cambios en archivo de credenciales
+credenciales.py
+
 # Distribution / packaging
 .Python
 build/
