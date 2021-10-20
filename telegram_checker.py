@@ -12,5 +12,4 @@ def telegram_bot_sendtext_checker(bot_message):
 
     return response.json()
 
-telegram_bot_sendtext_checker("https://articulo.mercadolibre.cl/MLC-587879197-consola-playstation-5-ps5-edicion-estandar-dualsense-_JM")
 
