@@ -4,6 +4,8 @@ from telegram import telegram_bot_sendtext
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
+tinyurl = 'https://tinyurl.com/fr9na8yw'
+
 def make_soup(url):
     http = urllib3.PoolManager()
     r = http.request("GET", url)
@@ -32,7 +34,7 @@ def disponibilidad_PS5_mercadolibre(url):
 
     if len(result) > 0:
         print(f'HAY {limpiar_disponibilidad(cantidad_disponible)} UNIDADES DISPONIBLES DE PS5 CON LECTOR EN MERCADO LIBRE')
-        telegram_bot_sendtext(f"HAY {unidades_dispoibles} DISPONIBLES DE PS5 CON LECTOR EN MERCADO LIBRE")
+        telegram_bot_sendtext(f"HAY {unidades_dispoibles} DISPONIBLES DE PS5 CON LECTOR EN MERCADO LIBRE {tinyurl}")
         
     else:
         print("NO HAY STOCK DISPONIBLE DE PS5 CON LECTOR EN MERCADO LIBRE")
