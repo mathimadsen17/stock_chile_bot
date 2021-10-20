@@ -27,7 +27,7 @@ while True:
     disponibilidad_PS5_digital_ripley('https://simple.ripley.cl/consola-ps5-digital-edition-2000380458314p?color_80=blanco&s=o')
     disponibilidad_PS5_digital_pcfactory('https://www.pcfactory.cl/producto/42732-sony-consola-playstation-5-version-all-digital--3-meses-playstation-plus')
     telegram_bot_sendtext_checker("still alive")
-    sleep(60)
+    sleep(300)
     
 
 

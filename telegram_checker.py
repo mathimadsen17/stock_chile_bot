@@ -10,4 +10,4 @@ def telegram_bot_sendtext_checker(bot_message):
 
     return response.json()
 
-telegram_bot_sendtext_checker("hola")
+
