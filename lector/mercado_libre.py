@@ -26,15 +26,17 @@ def disponibilidad_PS5_mercadolibre(url):
     cantidad_disponible = soup.find_all('span', class_= 'ui-pdp-buybox__quantity__available')
 
     cantidad_disponible = str(cantidad_disponible)
+    
+    unidades_dispoibles = limpiar_disponibilidad(cantidad_disponible)
 
 
     if len(result) > 0:
         print(f'HAY {limpiar_disponibilidad(cantidad_disponible)} UNIDADES DISPONIBLES DE PS5 CON LECTOR EN MERCADO LIBRE')
-        return True
+        telegram_bot_sendtext(f"HAY {unidades_dispoibles} DISPONIBLES DE PS5 CON LECTOR EN MERCADO LIBRE {url}")
         
     else:
         print("NO HAY STOCK DISPONIBLE DE PS5 CON LECTOR EN MERCADO LIBRE")
-        return False
+        
     
 
 

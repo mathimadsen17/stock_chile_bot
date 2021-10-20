@@ -1,5 +1,7 @@
 import requests
 
+from telegram import telegram_bot_sendtext
+
 def telegram_bot_sendtext_checker(bot_message):
     
     bot_token = '2084668302:AAEOofnAmhtYnMe6Qy-5U9OELEJRDmjuqe8'
@@ -10,4 +12,5 @@ def telegram_bot_sendtext_checker(bot_message):
 
     return response.json()
 
+telegram_bot_sendtext_checker("https://articulo.mercadolibre.cl/MLC-587879197-consola-playstation-5-ps5-edicion-estandar-dualsense-_JM")
 
