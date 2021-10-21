@@ -1,4 +1,5 @@
-link_falabella_lector = 'https://www.falabella.com/falabella-cl/product/prod37699550/COMBO-PLAYSTATION-5-+-JGO-SPIDER-MAN/sku37700168'
+link_falabella_lecto_juego = 'https://www.falabella.com/falabella-cl/product/prod37699550/COMBO-PLAYSTATION-5-+-JGO-SPIDER-MAN/sku37700168'
+link_falabella_lector = 'https://www.falabella.com/falabella-cl/product/14483343/PlayStation-5/14483343'
 link_lider_lector = 'https://www.lider.cl/catalogo/product/sku/1000000000359'
 link_mercado_libre_lector = 'https://articulo.mercadolibre.cl/MLC-587879197-consola-playstation-5-ps5-edicion-estandar-dualsense-_JM'
 link_microplay_lector = 'https://www.microplay.cl/producto/consola-ps5-sony/'
@@ -10,3 +11,4 @@ link_zmart_lector = 'https://www.zmart.cl/scripts/prodView.asp?idProduct=78812'
 link_lapolar_digital = 'https://www.lapolar.cl/consola-sony-playstation-5-digital/23395657.html'
 link_pcfactory_digital = 'https://www.pcfactory.cl/producto/42732-sony-consola-playstation-5-version-all-digital--3-meses-playstation-plus'
 link_ripley_digital = 'https://simple.ripley.cl/consola-ps5-digital-edition-2000380458314p?color_80=blanco&s=o'
+

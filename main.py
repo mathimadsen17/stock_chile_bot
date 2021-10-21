@@ -16,6 +16,7 @@ import datos
 
 while True:
     disponibilidad_PS5_falabella(datos.link_falabella_lector)
+    disponibilidad_PS5_falabella(datos.link_falabella_lecto_juego)
     disponibilidad_PS5_lider(datos.link_lider_lector)
     disponibilidad_PS5_mercadolibre(datos.link_mercado_libre_lector)    
     disponibilidad_PS5_microplay(datos.link_microplay_lector)
