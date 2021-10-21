@@ -1,6 +1,5 @@
 import requests
-
-from telegram import telegram_bot_sendtext
+import datos
 
 def telegram_bot_sendtext_checker(bot_message):
     
@@ -11,5 +10,3 @@ def telegram_bot_sendtext_checker(bot_message):
     response = requests.get(send_text)
 
     return response.json()
-
-telegram_bot_sendtext_checker('https://store.sony.cl/playstation5/p')
