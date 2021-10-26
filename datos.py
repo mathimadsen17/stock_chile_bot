@@ -1,6 +1,7 @@
 link_falabella_lecto_juego = 'https://www.falabella.com/falabella-cl/product/prod37699550/COMBO-PLAYSTATION-5-+-JGO-SPIDER-MAN/sku37700168'
 link_falabella_lector = 'https://www.falabella.com/falabella-cl/product/14483343/PlayStation-5/14483343'
-link_lider_lector = 'https://www.lider.cl/catalogo/product/sku/1086920'
+link_lider_lector_juego = 'https://www.lider.cl/catalogo/product/sku/1000000000359'
+link_lider_lector ='https://www.lider.cl/catalogo/product/sku/1086920'
 link_mercado_libre_lector = 'https://articulo.mercadolibre.cl/MLC-587879197-consola-playstation-5-ps5-edicion-estandar-dualsense-_JM'
 link_microplay_lector = 'https://www.microplay.cl/producto/consola-ps5-sony/'
 link_pcfactory_lector = 'https://www.pcfactory.cl/producto/43431-sony-consola-playstation-5'

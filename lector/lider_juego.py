@@ -4,8 +4,8 @@ from telegram import telegram_bot_sendtext
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
-url = 'https://www.lider.cl/catalogo/product/sku/1086920'
-tinyurl = 'https://tinyurl.com/2675s3bp'
+url = 'https://www.lider.cl/catalogo/product/sku/1000000000359'
+tinyurl = 'https://tinyurl.com/2nzzjb4a'
 
 def make_soup(url):
     http = urllib3.PoolManager()
@@ -13,7 +13,7 @@ def make_soup(url):
     return BeautifulSoup(r.data,'html.parser')
 
 
-def disponibilidad_PS5_lider(url):
+def disponibilidad_PS5_lider_juego(url):
     soup = make_soup(url)
 
     result = str(soup)
@@ -24,5 +24,3 @@ def disponibilidad_PS5_lider(url):
 
     else:
         print("NO HAY STOCK DISPONIBLE DE PS5 CON LECTOR EN LIDER")
-        
-
