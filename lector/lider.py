@@ -1,6 +1,6 @@
 from bs4 import BeautifulSoup
 import urllib3
-from telegram import telegram_bot_sendtext
+#from telegram import telegram_bot_sendtext
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
